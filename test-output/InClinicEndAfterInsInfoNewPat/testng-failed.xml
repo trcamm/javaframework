@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [InClinicEndAfterInsInfoNewPat]">
+  <test thread-count="5" name="InClinicEndAfterInsInfoNewPat(failed)">
+    <classes>
+      <class name="com.practicevelocity.seleniumEreg.Tests.InclinicEndAfterInsuranceInfoNewPatNavTest">
+        <methods>
+          <include name="teardownTest"/>
+          <include name="EndAfterInsInfoNewPat"/>
+          <include name="setupTest"/>
+        </methods>
+      </class> <!-- com.practicevelocity.seleniumEreg.Tests.InclinicEndAfterInsuranceInfoNewPatNavTest -->
+    </classes>
+  </test> <!-- InClinicEndAfterInsInfoNewPat(failed) -->
+</suite> <!-- Failed suite [InClinicEndAfterInsInfoNewPat] -->

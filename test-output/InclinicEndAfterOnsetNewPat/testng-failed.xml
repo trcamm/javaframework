@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [InclinicEndAfterOnsetNewPat]">
+  <listeners>
+    <listener class-name="com.practicevelocity.seleniumExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="InClinicEndAfterOnsetNewPatientConfig(failed)">
+    <classes>
+      <class name="com.practicevelocity.seleniumEreg.NavConfig.InClinicEndAfterOnsetNewPatientConfig">
+        <methods>
+          <include name="teardown"/>
+          <include name="endAfterOnsetNewPatSelect"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.practicevelocity.seleniumEreg.NavConfig.InClinicEndAfterOnsetNewPatientConfig -->
+    </classes>
+  </test> <!-- InClinicEndAfterOnsetNewPatientConfig(failed) -->
+  <test thread-count="5" name="PVMEregInitiateTest(failed)">
+    <classes>
+      <class name="com.practicevelocity.seleniumEreg.Tests.PVMEregInitiateTest">
+        <methods>
+          <include name="teardownTest"/>
+          <include name="eRegInit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.practicevelocity.seleniumEreg.Tests.PVMEregInitiateTest -->
+    </classes>
+  </test> <!-- PVMEregInitiateTest(failed) -->
+  <test thread-count="5" name="InclinicEndAfterOnsetNewPatNavTest(failed)">
+    <classes>
+      <class name="com.practicevelocity.seleniumEreg.Tests.InclinicEndAfterOnsetNewPatNavTest">
+        <methods>
+          <include name="EndAfterOnsetNewPat"/>
+          <include name="setupTest"/>
+          <include name="teardownTest"/>
+        </methods>
+      </class> <!-- com.practicevelocity.seleniumEreg.Tests.InclinicEndAfterOnsetNewPatNavTest -->
+    </classes>
+  </test> <!-- InclinicEndAfterOnsetNewPatNavTest(failed) -->
+  <test thread-count="5" name="EregComplete(failed)">
+    <classes>
+      <class name="com.practicevelocity.seleniumEreg.Tests.PVMLoginTest">
+        <methods>
+          <include name="initialization"/>
+          <include name="teardownTest"/>
+          <include name="fbLoginLogout"/>
+        </methods>
+      </class> <!-- com.practicevelocity.seleniumEreg.Tests.PVMLoginTest -->
+    </classes>
+  </test> <!-- EregComplete(failed) -->
+</suite> <!-- Failed suite [InclinicEndAfterOnsetNewPat] -->

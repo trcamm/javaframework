@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="InClinicEntireEregNewPat" duration-ms="334608" started-at="2019-02-28T19:19:20Z" finished-at="2019-02-28T19:24:55Z">
+    <groups>
+    </groups>
+    <test name="InClinicEndAfterEntireEregNewPatientConfig" duration-ms="44804" started-at="2019-02-28T19:19:20Z" finished-at="2019-02-28T19:20:05Z">
+      <class name="com.practicevelocity.seleniumEreg.NavConfig.InClinicEntireEregNewPatientConfig">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.practicevelocity.seleniumEreg.NavConfig.InClinicEntireEregNewPatientConfig@4d1b0d2a]" name="setUp" is-config="true" duration-ms="2998" started-at="2019-02-28T19:19:20Z" finished-at="2019-02-28T19:19:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="entireEregNewPatSelect()[pri:0, instance:com.practicevelocity.seleniumEreg.NavConfig.InClinicEntireEregNewPatientConfig@4d1b0d2a]" name="entireEregNewPatSelect" duration-ms="40539" started-at="2019-02-28T19:19:23Z" finished-at="2019-02-28T19:20:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entireEregNewPatSelect -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.practicevelocity.seleniumEreg.NavConfig.InClinicEntireEregNewPatientConfig@4d1b0d2a]" name="teardown" is-config="true" duration-ms="1244" started-at="2019-02-28T19:20:04Z" finished-at="2019-02-28T19:20:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.practicevelocity.seleniumEreg.NavConfig.InClinicEntireEregNewPatientConfig -->
+    </test> <!-- InClinicEndAfterEntireEregNewPatientConfig -->
+    <test name="InclinicEntireEregNewPatNavTest" duration-ms="289758" started-at="2019-02-28T19:20:05Z" finished-at="2019-02-28T19:24:55Z">
+      <class name="com.practicevelocity.seleniumEreg.Tests.InclinicEndAfterEntireEregNewPatNavTest">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.practicevelocity.seleniumEreg.Tests.InclinicEndAfterEntireEregNewPatNavTest@71623278]" name="setupTest" is-config="true" duration-ms="2188" started-at="2019-02-28T19:20:05Z" finished-at="2019-02-28T19:20:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="EndAfterEntireEregNewPat()[pri:0, instance:com.practicevelocity.seleniumEreg.Tests.InclinicEndAfterEntireEregNewPatNavTest@71623278]" name="EndAfterEntireEregNewPat" duration-ms="286451" started-at="2019-02-28T19:20:07Z" finished-at="2019-02-28T19:24:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndAfterEntireEregNewPat -->
+        <test-method status="PASS" signature="teardownTest()[pri:0, instance:com.practicevelocity.seleniumEreg.Tests.InclinicEndAfterEntireEregNewPatNavTest@71623278]" name="teardownTest" is-config="true" duration-ms="1116" started-at="2019-02-28T19:24:53Z" finished-at="2019-02-28T19:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+      </class> <!-- com.practicevelocity.seleniumEreg.Tests.InclinicEndAfterEntireEregNewPatNavTest -->
+    </test> <!-- InclinicEntireEregNewPatNavTest -->
+  </suite> <!-- InClinicEntireEregNewPat -->
+</testng-results>

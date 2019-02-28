@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="InclinicEndAfterOnsetNewPat">
+
+
+
+<listeners>
+	<listener class-name="com.practicevelocity.seleniumExtentReportListener.ExtentReporterNG" />
+</listeners>
+
+   <test name="InClinicEndAfterOnsetNewPatientConfig">
+    <classes>
+      <class name="com.practicevelocity.seleniumEreg.NavConfig.InClinicEndAfterOnsetNewPatientConfig"/>
+    </classes>
+  </test>
+  <test name="PVMEregInitiateTest">
+    <classes>
+      <class name="com.practicevelocity.seleniumEreg.Tests.PVMEregInitiateTest"/>
+    </classes>
+  </test>
+  <test name="InclinicEndAfterOnsetNewPatNavTest">
+    <classes>
+      <class name="com.practicevelocity.seleniumEreg.Tests.InclinicEndAfterOnsetNewPatNavTest"/>
+    </classes>
+  </test>
+  <test name="EregComplete">
+    <classes>
+      <class name="com.practicevelocity.seleniumEreg.Tests.PVMLoginTest"/>
+    </classes>
+  </test>
+  
+   
+</suite> 

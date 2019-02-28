@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="EregAutomationSanity">
+
+
+<listeners>
+	<listener class-name="com.practicevelocity.seleniumExtentReportListener.ExtentReporterNG" />
+</listeners>
+
+ <test name="EregAbortSession"> 
+    <classes>
+      <class name="com.practicevelocity.seleniumEreg.Tests.StartandAbortEregistrationTest"/>
+    </classes>
+  </test>
+  <test name="EregPatientIDInsCardtest">
+    <classes>
+      <class name="com.practicevelocity.seleniumEreg.Tests.PatientIdInsuranceCardPhotoYes"/>
+    </classes>
+  </test>
+
+  <test name="EregPinAPICheck">
+    <classes>
+      <class name="com.practicevelocity.seleniumEreg.Tests.EregPinAPICheck"/>
+    </classes>
+  </test>
+  <test name="IsThisEmergencyYes">
+    <classes>
+      <class name="com.practicevelocity.seleniumEreg.Tests.StartRegistrationIsThisEmergencyYesTest"/>
+    </classes>
+  </test>   
+</suite>
